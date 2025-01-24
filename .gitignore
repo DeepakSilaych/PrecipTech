@@ -23,12 +23,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # Editor directories and files
-.idea/
-.vscode/
+.idea
+.vscode
 *.swp
 *.swo
-*.swn
-*.bak
+*~
 
 # Optional npm cache directory
 .npm
@@ -44,9 +43,3 @@ yarn-error.log*
 
 # Yarn Integrity file
 .yarn-integrity
-
-# Local development SSL certificates
-*.pem
-
-# Cache directories
-.cache/
